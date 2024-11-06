@@ -1,0 +1,26 @@
+#mainnav{
+    background-color: rebeccapurple;
+}
+.navbar-default .navbar-nav>li>a{
+    color:white;
+    font-family: Roboto;
+
+}
+.navbar-default .navbar-nav>li>a:hover{
+    background-color: rgb(129, 76, 182);
+    color:white
+}
+#title{
+    color:white;
+    font-family: Roboto;
+}
+h1{
+    font-family:Roboto;
+}
+.tradecenter{
+    text-align: center;
+}
+.bigger{
+    font-size:26px;
+    font-weight:200;
+}
