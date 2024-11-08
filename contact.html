@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
         <title>TradeTrove - Contact</title>
     </head>
@@ -26,3 +26,37 @@
                 </div>
             </div>
         </nav>
+        <div class = "container">
+            <h1 id ="contact">Contact</h1>
+            <div class = "jumbotron">
+                <h3 id = "number">For any questions, call X XXX XX-XX-XX or E-mail help@TradeTrove.com</h3>
+            </div>
+            <div class = "jumbotron">
+                <h3 id = "number">To become a seller, E-mail sell@TradeTrove.com</h3>
+            </div>
+        </div>
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select><br>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
+          
+              <input type="submit" value="Submit"><br>
+            </form>
+          </div>
+    </body>
+</html>
+        

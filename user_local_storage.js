@@ -3,6 +3,7 @@ if(localStorage.getItem("user"))
     {
         //if true, welcome the user back to the site
         $("#name").text("Welcome back, " + localStorage.user + ", check out these deals we found for you.");
+        
     }
     else
     {
@@ -10,4 +11,6 @@ if(localStorage.getItem("user"))
         let name = prompt("What is your name?");
         localStorage.setItem("user", name);
         $("#name").text("Welcome to TradeTrove, " + name + "!");
+        
     }
+    $("#user").append(localStorage.user);
